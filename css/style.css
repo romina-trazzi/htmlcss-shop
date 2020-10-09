@@ -1,0 +1,53 @@
+/* Codice css del catalogo e-commerce */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+#container {
+  margin: auto;
+  width: 1000px;
+  padding-top: 50px;
+ }
+
+.product {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+ }
+
+.sconto {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+ }
+
+.bg_green {
+  background-color: green;
+ }
+
+.bg_red {
+  background-color: red;
+ }
+
+.heart {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+ }
+
+.product:hover .heart {
+  display: block;
+  color: red;
+ }
+
+footer {
+  text-align: center;
+ }
