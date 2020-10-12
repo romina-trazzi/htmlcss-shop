@@ -43,6 +43,10 @@
   text-align: center;
  }
 
+.product:hover {
+  cursor : pointer;
+ }
+
 .product:hover .heart {
   display: block;
   color: red;
